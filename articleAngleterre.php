@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="Chine.css"> 
+		<link rel="stylesheet" href="Angleterre.css"> 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -19,22 +19,21 @@
 				  width:"110%",
 				  });
 		</script>
-
 		<title>Voyages autour du monde</title>
+		
 	</head>
 	
 	<body>
-	<?php
-		include 'navbarchine.php';
-	?>
-	<div class="container">
-	<div class="row">
-    <div class="col">
-      <form action="enregistrementarticle.php">
-    <textarea id="mytextarea"></textarea>
-	<input type="submit" value="Submit">
-	</form>
-    </div>
-	
+		<?php
+			include 'navbarangleterre.php';
+		?>
+		<div class="container">
+			<div class="row">
+			<div class="col">
+			 <form action="enregistrementarticle.php">
+			<textarea id="mytextarea"></textarea>
+			<input type="submit" value="Submit">
+			</form>
+		</div>
 	</body>
 </html>
