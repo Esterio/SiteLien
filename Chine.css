@@ -2,3 +2,10 @@ body, main::before
 	{
 		background: url(images/chine.jpg) 0/cover fixed;
 	}
+	
+.row {
+	position:relative;
+	top:200px;
+	right:20px;
+	
+}
