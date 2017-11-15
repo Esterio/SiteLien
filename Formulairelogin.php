@@ -3,12 +3,18 @@
 		<div class="col-md-4 col-md-offset-4 text-center">
 			<div class="search-box">
 				<div class="caption">
-					<h3 class="title">Connection</h3>
+					<h3 class="title">Connexion</h3>
+					<hr />
 				</div>
 				<form action="" class="loginForm">
 					<div class="input-group">
 						<input type="text" id="name" class="form-control" placeholder="Identifiant">
 						<input type="password" id="paw" class="form-control" placeholder="Mot de passe">
+							<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> Se souvenir de moi
+											 </label>
+										</div>
 						<input type="submit" id="submit" class="form-control" value="Se connecter">
 					</div>
 			<div class="etc-login-form">

@@ -16,7 +16,7 @@
 			  <li><a href="Inde.php">Inde</a></li>
 			  <li class="active"><a href="Etats-Unis.php">Etats-Unis</a></li>
 			  <li><a href="France.php">France</a></li>
-			  <li><a href="Chine.php">Chine</a></li>
+			  <li><a href="Chine.php">Chine</a></li>li>
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
