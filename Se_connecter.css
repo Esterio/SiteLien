@@ -8,9 +8,14 @@ h3.title {
 	margin: 0 0 15px;
 	font-size: 60px;
     font-weight: bold;
-	color:#fb044a;
+	color:#D86F0D;
     text-shadow: 6px 6px 9px white;
 }
+hr{
+	width: 60%;
+	color: #fff;
+}
+
 .search-box{margin:80px auto;position:absolute;}
 .caption{margin-bottom:50px;}
 .loginForm input[type=text], 
@@ -18,8 +23,10 @@ h3.title {
 	margin-bottom:10px;
 }
 .loginForm input[type=submit]{
-	background:#fb044a;
+	background:#3498DB;
 	color:#fff;
-	font-weight:700;
-	
+	font-weight:700;	
+	margin-top: 7px;
 }	
+
+	
