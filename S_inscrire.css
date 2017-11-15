@@ -1,0 +1,52 @@
+body, main::before
+	{
+		background-image: url(images/se_connecter.jpg);
+		background-size:cover;
+	}
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+h1.title { 
+	margin: 0 0 10px;
+	font-size: 60px;
+    font-weight: bold;
+	color:#fb044a;
+    text-shadow: 6px 6px 9px white;
+}
+
+hr{
+	width: 20%;
+	color: #fff;
+}
+
+
+label{
+	margin-bottom: 15px;
+	text-shadow: 3px 2px 3px white;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+
+}
+.login-button{
+	margin-top: 5px;
+	background:#fb044a;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}

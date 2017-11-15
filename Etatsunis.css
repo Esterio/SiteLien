@@ -1,0 +1,4 @@
+body, main::before 
+	{
+		background: url(images/etatsunis.jpg) 0/cover fixed;
+	}

@@ -1,0 +1,25 @@
+body, main::before
+	{
+		background-image: url(images/se_connecter.jpg);
+		background-size: cover;
+	}
+
+h3.title {
+	margin: 0 0 15px;
+	font-size: 60px;
+    font-weight: bold;
+	color:#fb044a;
+    text-shadow: 6px 6px 9px white;
+}
+.search-box{margin:80px auto;position:absolute;}
+.caption{margin-bottom:50px;}
+.loginForm input[type=text], 
+.loginForm input[type=password]{
+	margin-bottom:10px;
+}
+.loginForm input[type=submit]{
+	background:#fb044a;
+	color:#fff;
+	font-weight:700;
+	
+}	
