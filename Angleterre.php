@@ -11,12 +11,15 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title>Voyages autour du monde</title>
+		<title>Voyages autour du monde</title>	
 	</head>
 	
 	<body>
-	<?php
-		include'navbarangleterre.php';
-	?>
+		<a class=addbutton href="articleAngleterre.php">
+		<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
+		</a>
+		<?php
+			include'navbarangleterre.php';
+		?>
 	</body>
 </html>
