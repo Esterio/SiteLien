@@ -21,7 +21,23 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
-						  <li><a href="Se_connecter.php">Se connecter</a></li>
+						  <?php
+// initialisation de la séssion
+session_start();
+if ($_SESSION ['connecter'] != 'Oui')
+					{
+					?>
+                        <a href="Se_connecter.php"> <i class="glyphicon glyphicon-user"></i> Se connecter</a>
+                    <?php
+					}
+					else
+					{
+					?>
+					<a href="#"> <i class="glyphicon glyphicon-user"></i> connecté</a>
+                    <?php
+					}
+					?>
+ 
 			  <li><a href="inscrire.php">S'inscrire</a></li>
 			  
 			 </ul>
