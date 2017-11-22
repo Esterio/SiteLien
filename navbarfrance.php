@@ -24,6 +24,15 @@
 <?php
 // initialisation de la séssion
 session_start();
+if (isset ($_SESSION ['connecter']))
+{
+	
+}
+else
+{
+$_SESSION['connecter'] = 'Non';
+}
+
 if ($_SESSION ['connecter'] != 'Oui')
 					{
 					?>
@@ -33,7 +42,8 @@ if ($_SESSION ['connecter'] != 'Oui')
 					else
 					{
 					?>
-					<a href="#"> <i class="glyphicon glyphicon-user"></i> connecté</a>
+					<a href="#"> <i class="glyphicon glyphicon-user"></i> Connecté</a>
+					<a href="destroysession.php"> <i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a>
                     <?php
 					}
 					?>
