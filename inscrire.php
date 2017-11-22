@@ -16,6 +16,7 @@
 	
 	<body>
 	<?php
+
 		include 'navbarinscrire.php';
 		include 'Formulaireinscrip.php';
 	?>

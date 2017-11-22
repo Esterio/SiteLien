@@ -17,6 +17,7 @@
 	
 	<body>
 		<?php
+
 			include 'navbaracceuil.php';
 			include 'Textaccueil.php';
 			?>		

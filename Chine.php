@@ -15,12 +15,8 @@
 	</head>
 	
 	<body>
-		<a class=addbutton href="articleChine.php">
-		<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
-		</a>
-		
-		<?php
-			include 'navbarchine.php';
-		?>
+	<?php
+		include 'navbarchine.php';
+	?>
 	</body>
 </html>
