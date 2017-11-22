@@ -70,7 +70,7 @@
 							<label for="email" class="cols-sm-2 control-label">E-mail:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i><i class="glyphicon glyphicon-envelope"></i></span>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
 									<input type="text" class="form-control" name="email" id="email"  placeholder="John.Smith@gmail.com"/>
 								</div>
 							</div>
@@ -81,7 +81,7 @@
 							<label for="password" class="cols-sm-2 control-label">Mot de passe:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i><i class="glyphicon glyphicon-lock"></i></span>
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i><i class="glyphicon glyphicon-lock"></i> </span>
 									<input type="password" class="form-control" name="password" id="password"/>
 								</div>
 							</div>
