@@ -2,7 +2,6 @@ body, main::before
 	{
 		background: url(images/background3.jpg) 0/cover fixed;
 	}
-	
 .row {
 	position:relative;
 	top:200px;
