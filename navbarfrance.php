@@ -21,6 +21,9 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
+
+						  <li><a href="Se_connecter.php">Se connecter</a></li>
+
 <?php
 // initialisation de la séssion
 session_start();
@@ -47,9 +50,9 @@ if ($_SESSION ['connecter'] != 'Oui')
                     <?php
 					}
 					?>
+
 			  <li><a href="inscrire.php">S'inscrire</a></li>
 			  
 			 </ul>
 		  </div>
 		</nav>
-		

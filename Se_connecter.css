@@ -15,7 +15,6 @@ hr{
 	width: 60%;
 	color: #fff;
 }
-
 .search-box{margin:80px auto;position:absolute;}
 .caption{margin-bottom:50px;}
 .loginForm input[type=text], 
@@ -25,8 +24,17 @@ hr{
 .loginForm input[type=submit]{
 	background:#3498DB;
 	color:#fff;
-	font-weight:700;	
+	font-weight:700;
 	margin-top: 7px;
 }	
-
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-top: 3px;
+	font-style: italic;
 	
+}
+label{
+		font-size: 13px;
+		color:#3498DB;
+}

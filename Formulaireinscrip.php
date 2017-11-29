@@ -15,8 +15,10 @@
 							<label for="nom_inscrit" class="cols-sm-2 control-label">Nom:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i><i class="glyphicon glyphicon-user"></i></span>
-									<input type="text" class="form-control" name="nom_inscrit" id="nom_inscrit"  placeholder="Smith"/>
+
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Smith"/>
+                
 								</div>
 							</div>
 						</div>
@@ -26,8 +28,10 @@
 							<label for="prenom_inscrit" class="cols-sm-2 control-label">Prénom:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i><i class="glyphicon glyphicon-user"></i></span>
-									<input type="text" class="form-control" name="prenom_inscrit" id="prenom_inscrit"  placeholder="John"/>
+
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="John"/>
+
 								</div>
 							</div>
 						</div>
@@ -37,8 +41,10 @@
 							<label for="date_naiss" class="cols-sm-2 control-label">Date de naissance:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i><i class="glyphicon glyphicon-gift"></i></span>
-									<input type="text" class="form-control" name="date_naiss" id="date_naiss"  placeholder="jj/mm/aaaa"/>
+
+									<span class="input-group-addon"><i class="glyphicon glyphicon-gift"></i></span>
+									<input type="text" class="form-control" name="date" id="date"  placeholder="jj/mm/aaaa"/>
+                
 								</div>
 							</div>
 						</div>
@@ -48,8 +54,10 @@
 							<label for="ville" class="cols-sm-2 control-label">Ville:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i><i class="glyphicon glyphicon-home"></i></span>
-									<input type="text" class="form-control" name="ville" id="ville"  placeholder="Paris"/>
+                  
+									<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Paris"/>
+
 								</div>
 							</div>
 						</div>
@@ -59,8 +67,10 @@
 							<label for="pays" class="cols-sm-2 control-label">Pays:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i><i class="glyphicon glyphicon-globe"></i></span>
-									<input type="text" class="form-control" name="pays" id="pays"  placeholder="France"/>
+
+									<span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="France"/>
+                
 								</div>
 							</div>
 						</div>
@@ -70,7 +80,7 @@
 							<label for="email" class="cols-sm-2 control-label">E-mail:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i><i class="glyphicon glyphicon-envelope"></i></span>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
 									<input type="text" class="form-control" name="email" id="email"  placeholder="John.Smith@gmail.com"/>
 								</div>
 							</div>
@@ -81,8 +91,10 @@
 							<label for="mot_de_passe" class="cols-sm-2 control-label">Mot de passe:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i><i class="glyphicon glyphicon-lock"></i></span>
-									<input type="password" class="form-control" name="mot_de_passe" id="mot_de_passe"/>
+
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									<input type="password" class="form-control" name="password" id="password" placeholder="**********"/>
+
 								</div>
 							</div>
 						</div>
@@ -92,15 +104,17 @@
 							<label for="confirm" class="cols-sm-2 control-label">Confirmation du mot de passe:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i><i class="glyphicon glyphicon-lock"></i></span>
-									<input type="password" class="form-control" name="confirm" id="confirm"/>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+									<input type="password" class="form-control" name="confirm" id="confirm" placeholder="**********"/>
 								</div>
 							</div>
 						</div>
 
 						
 						<div class="form-group ">
-							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">S'inscrire</button>
+
+							<button type="button" class="btn-lg btn-block login-button">S'inscrire</button>
+
 						</div>
 						    </div>
 						

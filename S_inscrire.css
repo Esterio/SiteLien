@@ -10,7 +10,7 @@ h1.title {
 	color:#D86F0D;
     text-shadow: 6px 6px 9px white;
 }
-
+	
 hr{
 	width: 20%;
 	color: #fff;
@@ -27,6 +27,7 @@ input,
 input::-webkit-input-placeholder {
     font-size: 15px;
     padding-top: 3px;
+	font-style: italic;
 }
 
 .main-center{
