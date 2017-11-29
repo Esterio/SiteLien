@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 			<div class="navbar-header">
@@ -16,11 +17,36 @@
 			  <li><a href="Inde.php">Inde</a></li>
 			  <li><a href="Etats-Unis.php">Etats-Unis</a></li>
 			  <li><a href="France.php">France</a></li>
-			  <li class="active"><a href="Chine.php">Chine</a></li>li>
+			  <li class="active"><a href="Chine.php">Chine</a></li>
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
-						  <li><a href="Se_connecter.php">Se connecter</a></li>
+<?php
+// initialisation de la séssion
+session_start();
+if (isset ($_SESSION ['connecter']))
+{
+	
+}
+else
+{
+$_SESSION['connecter'] = 'Non';
+}
+
+if ($_SESSION ['connecter'] != 'Oui')
+					{
+					?>
+                        <a href="Se_connecter.php"> <i class="glyphicon glyphicon-user"></i> Se connecter</a>
+                    <?php
+					}
+					else
+					{
+					?>
+					<a href="#"> <i class="glyphicon glyphicon-user"></i> Connecté</a>
+					<a href="destroysession.php"> <i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a>
+                    <?php
+					}
+					?>
 			  <li><a href="inscrire.php">S'inscrire</a></li>
 			  
 			 </ul>

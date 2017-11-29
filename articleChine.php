@@ -11,15 +11,30 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+		<script>tinymce.init({
+				  selector: 'textarea',  // change this value according to your HTML
+				  toolbar: false,
+				  branding: false,
+				  width:"110%",
+				  });
+		</script>
+
 		<title>Voyages autour du monde</title>
 	</head>
 	
 	<body>
-		<a class=addbutton href="articleChine.php">
-		<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
-		</a>
 	<?php
 		include 'navbarchine.php';
 	?>
+	<div class="container">
+	<div class="row">
+    <div class="col">
+      <form action="enregistrementarticle.php">
+    <textarea id="mytextarea"></textarea>
+	<input type="submit" value="Submit">
+	</form>
+    </div>
+	
 	</body>
 </html>

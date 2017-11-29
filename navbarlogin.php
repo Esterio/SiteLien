@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 			<div class="navbar-header">
@@ -16,7 +17,7 @@
 			  <li><a href="Inde.php">Inde</a></li>
 			  <li><a href="Etats-Unis.php">Etats-Unis</a></li>
 			  <li><a href="France.php">France</a></li>
-			  <li><a href="Chine.php">Chine</a></li>li>
+			  <li><a href="Chine.php">Chine</a></li>
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">

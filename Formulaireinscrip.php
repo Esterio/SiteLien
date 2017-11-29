@@ -9,58 +9,68 @@
 	               	</div>
 	            </div> 
 				<div class="main-center">
-					<form class="form-horizontal" method="post" action="#">
+					<form action="enregistrement.php" method="post">
 						
 						<div class="form-group">
-							<label for="name" class="cols-sm-2 control-label">Nom:</label>
+							<label for="nom_inscrit" class="cols-sm-2 control-label">Nom:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
+
 									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
 									<input type="text" class="form-control" name="name" id="name"  placeholder="Smith"/>
+                
 								</div>
 							</div>
 						</div>
 						
 						
 						<div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Prénom:</label>
+							<label for="prenom_inscrit" class="cols-sm-2 control-label">Prénom:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
+
 									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
 									<input type="text" class="form-control" name="username" id="username"  placeholder="John"/>
+
 								</div>
 							</div>
 						</div>
 						
 						
 						<div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Date de naissance:</label>
+							<label for="date_naiss" class="cols-sm-2 control-label">Date de naissance:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
+
 									<span class="input-group-addon"><i class="glyphicon glyphicon-gift"></i></span>
 									<input type="text" class="form-control" name="date" id="date"  placeholder="jj/mm/aaaa"/>
+                
 								</div>
 							</div>
 						</div>
 						
 						
 						<div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Ville:</label>
+							<label for="ville" class="cols-sm-2 control-label">Ville:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
+                  
 									<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
 									<input type="text" class="form-control" name="username" id="username"  placeholder="Paris"/>
+
 								</div>
 							</div>
 						</div>
 						
 						
 						<div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Pays:</label>
+							<label for="pays" class="cols-sm-2 control-label">Pays:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
+
 									<span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
 									<input type="text" class="form-control" name="username" id="username"  placeholder="France"/>
+                
 								</div>
 							</div>
 						</div>
@@ -78,11 +88,13 @@
 
 						
 						<div class="form-group">
-							<label for="password" class="cols-sm-2 control-label">Mot de passe:</label>
+							<label for="mot_de_passe" class="cols-sm-2 control-label">Mot de passe:</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
+
 									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 									<input type="password" class="form-control" name="password" id="password" placeholder="**********"/>
+
 								</div>
 							</div>
 						</div>
@@ -100,7 +112,9 @@
 
 						
 						<div class="form-group ">
+
 							<button type="button" class="btn-lg btn-block login-button">S'inscrire</button>
+
 						</div>
 						    </div>
 						
