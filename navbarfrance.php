@@ -20,10 +20,9 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
-						  <li><a href="Se connecter.php">Se connecter</a></li>
+						  <li><a href="Se_connecter.php">Se connecter</a></li>
 			  <li><a href="inscrire.php">S'inscrire</a></li>
 			  
 			 </ul>
 		  </div>
 		</nav>
-		
