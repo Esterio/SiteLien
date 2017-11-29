@@ -19,19 +19,30 @@
 				  width:"110%",
 				  });
 		</script>
+		<script>tinymce.init({
+				  selector: 'titlearea',  // change this value according to your HTML
+				  toolbar: false,
+				  branding: false,
+				  width:"30%",
+				  height:"10"
+				  });
+		</script>
 		<title>Voyages autour du monde</title>
 		
 	</head>
 	
 	<body>
+	<h1 id="wow">Titre:</h1>
+	<h1 id="si">Corps du texte:</h1>
 		<?php
 			include 'navbarangleterre.php';
 		?>
 		<div class="container">
 			<div class="row">
 			<div class="col">
-			 <form action="enregistrementarticle.php">
-			<textarea id="mytextarea"></textarea>
+			<form action="enregistrementArticleAngleterre.php" method="post">
+			<titlearea name="title" id="title"></titlearea>
+			<textarea name="text" id="body"></textarea>
 			<input type="submit" value="Submit">
 			</form>
 		</div>

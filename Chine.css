@@ -14,3 +14,19 @@ body, main::before
 	top:200px;
 	left:400px;
 }
+
+#wow {
+	position:relative;
+	top:250px;
+	left:180px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+}
+
+#si {
+	position:relative;
+	top:380px;
+	left:600px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+}
