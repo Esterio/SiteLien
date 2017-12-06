@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<?php
+			include'connexion.php'
+		?>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="Chine.css"> 
 		<!-- Latest compiled and minified CSS -->
@@ -20,6 +23,7 @@
 		</a>
 	<?php
 		include 'navbarchine.php';
+		
 	?>
 	</body>
 </html>
