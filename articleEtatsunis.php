@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="Chine.css"> 
+		<link rel="stylesheet" href="Etatsunis.css"> 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -40,7 +40,7 @@
 	<div class="container">
 	<div class="row">
     <div class="col">
-      <form action="enregistrementArticleChine.php" method="post">
+      <form action="enregistrementArticleEtatsunis.php" method="post">
 	<titlearea name="title" id="title"></titlearea>
     <textarea name="text" id="body"></textarea>
 	<input type="submit" value="Submit">
