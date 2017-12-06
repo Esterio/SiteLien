@@ -18,7 +18,7 @@ $date_naiss = $_POST['date_naiss'];
 $ville = $_POST['ville'];
 $pays = $_POST['pays'];
 $email = $_POST['email'];
-$mot_de_passe = $_POST['mot_de_passe'];
+$mot_de_passe = password_hash($_POST['mot_de_passe'],PASSWORD_DEFAULT);
 
 
 $succes=$stmt->execute();

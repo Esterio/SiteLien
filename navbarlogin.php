@@ -21,6 +21,14 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
+			
+			<form class="navbar-form navbar-left">							
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Identifiant">
+				</div>
+					<button type="submit" class="btn btn-default">Rechercher</button>
+			</form>
+			
 			<li class="active"><a href="Se_connecter.php">Se connecter</a></li>
 			  <li><a href="inscrire.php">S'inscrire</a></li>
 			  

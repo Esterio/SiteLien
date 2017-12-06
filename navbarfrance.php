@@ -21,9 +21,12 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
-
-						  <li><a href="Se_connecter.php">Se connecter</a></li>
-
+			<form class="navbar-form navbar-left">							
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Identifiant">
+				</div>
+					<button type="submit" class="btn btn-default">Rechercher</button>
+			</form>
 <?php
 // initialisation de la séssion
 session_start();
@@ -45,14 +48,22 @@ if ($_SESSION ['connecter'] != 'Oui')
 					else
 					{
 					?>
-					<a href="#"> <i class="glyphicon glyphicon-user"></i> Connecté</a>
-					<a href="destroysession.php"> <i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a>
+					
+					<a href="#"> <i class="glyphicon glyphicon-user"></i> Bonjour</a>
+					<?php
+					echo $_SESSION ['nom'];
+					echo $_SESSION ['prenom'];
+					?>
+					<a href="destroysession.php"> <i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a>					
                     <?php
+					
+					
 					}
 					?>
-
+ 
 			  <li><a href="inscrire.php">S'inscrire</a></li>
 			  
 			 </ul>
+			
 		  </div>
 		</nav>

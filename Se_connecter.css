@@ -21,12 +21,7 @@ hr{
 .loginForm input[type=password]{
 	margin-bottom:10px;
 }
-.loginForm input[type=submit]{
-	background:#3498DB;
-	color:#fff;
-	font-weight:700;
-	margin-top: 7px;
-}	
+
 input,
 input::-webkit-input-placeholder {
     font-size: 15px;
@@ -38,3 +33,4 @@ label{
 		font-size: 13px;
 		color:#3498DB;
 }
+				

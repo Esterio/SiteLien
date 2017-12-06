@@ -111,7 +111,7 @@
 						</div>
 
 						
-						<div class="form-group ">
+						<div class="form-button">
 
 							<button type="button" class="btn-lg btn-block login-button">S'inscrire</button>
 
