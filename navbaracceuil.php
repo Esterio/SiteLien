@@ -43,10 +43,15 @@ if ($_SESSION ['connecter'] != 'Oui')
 					{
 					?>
 					
-					<a href="#"> <i class="glyphicon glyphicon-user"></i> Connecté</a>
-					<a href="destroysession.php"> <i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a>
-					
+					<a href="#"> <i class="glyphicon glyphicon-user"></i> Bonjour</a>
+					<?php
+					echo $_SESSION ['nom'];
+					echo $_SESSION ['prenom'];
+					?>
+					<a href="destroysession.php"> <i class="glyphicon glyphicon-log-out"></i> Se déconnecter</a>					
                     <?php
+					
+					
 					}
 					?>
  
