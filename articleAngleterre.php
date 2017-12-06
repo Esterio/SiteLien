@@ -40,9 +40,10 @@
 		<div class="container">
 			<div class="row">
 			<div class="col">
-			<form action="enregistrementArticleAngleterre.php" method="post">
+			<form action="enregistrementArticle.php" method="post">
 			<titlearea name="title" id="title"></titlearea>
 			<textarea name="text" id="body"></textarea>
+			<input type="hidden" name="location" value="Angleterre">
 			<input type="submit" value="Submit">
 			</form>
 		</div>

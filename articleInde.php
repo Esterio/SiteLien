@@ -40,9 +40,10 @@
 	<div class="container">
 	<div class="row">
     <div class="col">
-      <form action="enregistrementArticleInde.php" method="post">
+      <form action="enregistrementArticle.php" method="post">
 	<titlearea name="title" id="title"></titlearea>
     <textarea name="text" id="body"></textarea>
+	<input type="hidden" name="location" value="Inde">
 	<input type="submit" value="Submit">
 	</form>
     </div>
