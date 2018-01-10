@@ -25,6 +25,7 @@
 				  branding: false,
 				  width:"30%",
 				  height:"10"
+				  
 				  });
 		</script>
 
@@ -35,7 +36,7 @@
 	<h1 id="wow">Titre:</h1>
 	<h1 id="si">Corps du texte:</h1>
 	<?php
-		include 'navbarchine.php';
+		include 'navbarEtatsunis.php';
 	?>
 	<div class="container">
 	<div class="row">
@@ -43,7 +44,7 @@
       <form action="enregistrementArticle.php" method="post">
 	<titlearea name="title" id="title"></titlearea>
     <textarea name="text" id="body"></textarea>
-	<input type="hidden" name="location" value="Etats-Unis">
+	<input type="hidden" name="location" value="Etats-unis">
 	<input type="submit" value="Submit">
 	</form>
     </div>
