@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="Chine.css"> 
+		<link rel="stylesheet" href="Etatsunis.css"> 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -36,7 +36,7 @@
 	<h1 id="wow">Titre:</h1>
 	<h1 id="si">Corps du texte:</h1>
 	<?php
-		include 'navbarchine.php';
+		include 'navbarEtatsunis.php';
 	?>
 	<div class="container">
 	<div class="row">
@@ -44,7 +44,7 @@
       <form action="enregistrementArticle.php" method="post">
 	<titlearea name="title" id="title"></titlearea>
     <textarea name="text" id="body"></textarea>
-	<input type="hidden" name="location" value="Chine">
+	<input type="hidden" name="location" value="Etats-unis">
 	<input type="submit" value="Submit">
 	</form>
     </div>

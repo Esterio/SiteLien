@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="Chine.css"> 
+		<link rel="stylesheet" href="Inde.css"> 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -25,7 +25,6 @@
 				  branding: false,
 				  width:"30%",
 				  height:"10"
-				  
 				  });
 		</script>
 
@@ -44,7 +43,7 @@
       <form action="enregistrementArticle.php" method="post">
 	<titlearea name="title" id="title"></titlearea>
     <textarea name="text" id="body"></textarea>
-	<input type="hidden" name="location" value="Chine">
+	<input type="hidden" name="location" value="Inde">
 	<input type="submit" value="Submit">
 	</form>
     </div>

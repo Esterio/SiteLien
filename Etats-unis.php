@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8"/> 
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="Etatsunis.css"> 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -10,9 +11,17 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title>Voyages autour du monde</title>	
+		<title>Voyages autour du monde</title>
 	</head>
 	
 	<body>
-		<p> OK </p>
+	<a class=addbutton href="articleEtatsunis.php">
+		<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
+		</a>
+	<?php
+		include 'navbarEtatsunis.php';
+		$location = "Etatsunis";
+		include 'verifarticle.php';
+	?>
 	</body>
+</html>
