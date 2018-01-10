@@ -15,13 +15,8 @@
 	</head>
 	
 	<body>
-	<a class=addbutton href="articleJapon.php">
-		<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
-		</a>
 	<?php
 		include 'navbarjapon.php';
-		$location = "Japon";
-		include 'verifarticle.php';
 	?>
 	</body>
 </html>

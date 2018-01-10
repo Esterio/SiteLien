@@ -8,12 +8,26 @@
 session_start();
 include("connexion.php");
 $test='';
-$requete = $connexion->prepare('SELECT id_inscrit from inscrit where email = "'.$_POST['email'].'" and mot_de_passe = "'.$_POST['mot_de_passe'].'"');
+$requete = $connexion->prepare('SELECT * from inscrit where email = "'.$_POST['email'].'"');
 $requete->execute();
 $lignes = $requete->fetchAll();
 if (count($lignes) != 0)
 {
+	
+	foreach($lignes as $ligne)
+	{
+	$_SESSION ['nom'] = $ligne ['nom_inscrit'];
+	$_SESSION ['prenom'] = $ligne ['prenom_inscrit'];
+	$_SESSION ['id'] = $ligne ['id_inscrit'];
+	if (password_verify($_POST['mot_de_passe'], $ligne['mot_de_passe'])) 
+	{
 	$_SESSION ['connecter'] = 'Oui';
+	} 
+	else 
+	{
+		echo 'ERREUR';
+	}
+	}
 	header('Location: Accueil.php');
 }
 else

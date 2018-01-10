@@ -1,6 +1,6 @@
 body, main::before 
 	{
-	background: url(images/chine.jpg) 0/cover fixed;
+		background: url(images/chine.jpg) 0/cover fixed;
 	}
 .row {
 	position:relative;
@@ -12,50 +12,5 @@ body, main::before
 .addbutton {
 	position:relative;
 	top:200px;
-	left:700px;
-}
-
-#wow {
-	position:relative;
-	top:250px;
-	left:180px;
-	color:white;
-	text-shadow: white 0px 0px 10px;
-}
-
-#si {
-	position:relative;
-	top:380px;
-	left:600px;
-	color:white;
-	text-shadow: white 0px 0px 10px;
-}
-
-.titre {
-	position:relative;
-	top:20px;
-	left:100px;
-	color:white;
-	text-shadow: white 0px 0px 10px;
-	font-size:200%;
-}
-
-.hg{
-	position:relative;
-	top:20px;
-	left:100px;
-	color:white;
-	text-shadow: white 0px 0px 10px;
-	font-size:300%;
-	
-	
-}
-
-.hf{
-	position:relative;
-	top:20px;
-	left:100px;
-	color:white;
-	font-size:200%
-	
+	left:400px;
 }

@@ -18,7 +18,6 @@
 						<input type="submit" id="submit" class="form-control" value="Se connecter">
 					</div>
 			<div class="etc-login-form">
-				<a href="#">Mot de passe oublié?</a></br>
 				<a href="inscrire.php">Créer un compte</a>
 			</div>
 				</form>

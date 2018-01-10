@@ -4,19 +4,19 @@
 	  box-sizing: border-box;
 	  margin: 0;
 	  padding-top: calc(50vh - 6em);
-	  font: 150%/1.6 Baskerville, Palatino, serif;
+	  font: 200%/1.6 Baskerville, Palatino, serif;
 	}
 
 	body, main::before {
-	  background: url(images/home.jpg) 0/cover fixed;
+	  background: url(images/Accueil2.jpg) 0/cover fixed;
 	}
 main {
   position: relative;
   margin: 0 auto;
   padding: 1em;
-  max-width: 50em;
-  max-height:50em;
-  background: rgba(255, 255, 255, 0.25) border-box;
+  max-width: 555em;
+  max-height:555em;
+  background: rgba(255, 255, 255, 0.35) border-box;
   overflow: hidden;
   border-radius: .3em;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset, 0 0.5em 1em rgba(0, 0, 0, 0.6);

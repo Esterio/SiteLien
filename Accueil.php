@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" href="Voyage.css"> 
+		<link rel="stylesheet" href="Voyage.css">
+		<link rel="icon" type="image/png" href="/images/favicon.icon" />		
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -13,6 +15,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<title>Voyages autour du monde</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel= "icon" type="image/x-icon" href= "favicon.ico"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	</head>
 	
 	<body>
@@ -20,6 +24,8 @@
 
 			include 'navbaracceuil.php';
 			include 'Textaccueil.php';
+			include 'testarticlecom.php';
+			include 'affichagecom.php';
 			?>		
 	</body>
 	
