@@ -43,5 +43,11 @@ $article=$_GET["article"];
 	
 	
 	?>
+	<h2 class=hf>Commentaires:</h2>
+		<div class=ff>
+		<form action="enregistrementcommentaire.php" method="POST">
+		<textarea  name="les_commentaires" placeholder="Votre commentaire :"></textarea> <br />
+		<input type="submit" value="Poster mon commentaire"  />
+		</form></div>
 	
 	</body>
