@@ -10,10 +10,9 @@
 			$titre_article = $_POST['title'];
 			$location = $_POST['location'];
 			$succes=$stmt->execute();
+			
+			
+			
+			header('Location: '.$location.'.php');
 	?>
-	<script language="javascript" type="text/javascript">
-     <!--
-     window.setTimeout('window.open($location+".php")',1);
-	 window.setTimeout('window.close()',5);
-     // -->
-	</script>
+	

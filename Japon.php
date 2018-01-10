@@ -20,6 +20,8 @@
 		</a>
 	<?php
 		include 'navbarjapon.php';
+		$location = "Japon";
+		include 'verifarticle.php';
 	?>
 	</body>
 </html>

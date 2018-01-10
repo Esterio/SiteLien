@@ -20,6 +20,8 @@
 		</a>
 	<?php
 		include 'navbarinde.php';
+		$location = "Inde";
+		include 'verifarticle.php';
 	?>
 	</body>	
 </html>
