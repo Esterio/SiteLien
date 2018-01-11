@@ -19,8 +19,9 @@
 	</head>
 	
 	<body>
-
-				
+	<a class=addbutton href="articleChine.php">
+	<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
+		</a>
 		<div>
      <iframe width="475" height="425" frameborder="0" src="https://www.bing.com/maps/embed?h=425&w=475&cp=30.68509088108138~108.98188419315721&lvl=3&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
      </iframe>
