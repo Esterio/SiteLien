@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html>
-<?php 
-$location=$_GET["location"];
-$article=$_GET["article"];
+<?php
+	include 'connexion.php';
+					
+					
+			$stmt = $connexion->prepare("INSERT INTO commentaires (nom,commentaire,id_article) VALUE (:nom, :commentaire, :id_article)");
+			$stmt->bindParam(':nom', $nom);
+			$stmt->bindParam(':commentaire', $commentaire);
+			$stmt->bindParam(':id_article', $id_article);
+			$nom = $_POST['nom'];
+			$commentaire = $_POST['commentaire'];
+			$id_article = $_POST['titre'];
+			$succes=$stmt->execute();
+			
+			$location = $_POST['location'];
+			$article = $_POST['article'];
+			header('Location: article.php?article='.$article.'&location='.$location);
+
 ?>
-
-	<head>
-		<meta charset="UTF-8"/>
-		<?php echo '<link rel="stylesheet" href="'.$location.'.css">' ?>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title>Voyages autour du monde</title>
-	</head>
-	
-	<body>
