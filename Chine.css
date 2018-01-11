@@ -28,7 +28,22 @@ body, main::before
 	text-shadow: black 0px 0px 10px;
 	font-size:200%;
 }
-
+#wow {
+	position:relative;
+	top:250px;
+	left:180px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+}
+ 
+ 
+#si {
+	position:relative;
+	top:380px;
+	left:600px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+ }
 .hg{
 	position:relative;
 	top:20px;
