@@ -43,6 +43,8 @@
 		
 	<?php
 		include 'navbarchine.php';
+		$location = "Chine";
+		include 'verifarticle.php';
 	?>
 	</body>
 </html>
