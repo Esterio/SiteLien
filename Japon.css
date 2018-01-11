@@ -60,3 +60,13 @@ body, main::before
 	font-size:200%
 	
 }
+}
+.fi{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:140%
+	
+}
