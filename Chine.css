@@ -16,10 +16,47 @@ body, main::before
 
 .addbutton {
 	position:relative;
-	top:200px;
-	left:400px;
+	top:50px;
+	left:1400px;
+
+}
+.titre {
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:200%;
 }
 
+.hg{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:300%;
+	
+	
+}
+
+.hf{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:200%
+}
+.fi{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:140%
+	
+}
 footer {
   background-color: #333;
   text-align: center;
@@ -36,6 +73,7 @@ iframe {
 	
   position: fixed;	
 
+
   margin: 900px;
   margin-top: 175px;
   margin-bottom: 100px;
@@ -51,3 +89,4 @@ iframe {
 
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
 } 
+

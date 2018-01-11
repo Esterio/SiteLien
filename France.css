@@ -18,6 +18,55 @@ html, body{
   left: 0;
   right: 0;
 }
+.addbutton {
+	position:relative;
+	top:50px;
+	left:1400px;
+}
+#si {
+	position:relative;
+	top:380px;
+	left:600px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+}
+.titre {
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:200%;
+}
+
+.hg{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:300%;
+	
+	
+}
+
+.hf{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:200%
+	}
+.fi{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:140%
+	
+}
 
 iframe {
 	
@@ -31,6 +80,7 @@ iframe {
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
+
 
   -moz-box-shadow: 4px 4px 14px #000;
   -webkit-box-shadow: 4px 4px 14px #000;

@@ -6,6 +6,55 @@ body, main::before
 	html, body{
 		height: 100%;
 	}
+.addbutton {
+	position:relative;
+	top:50px;
+	left:1400px;
+}
+#si {
+	position:relative;
+	top:380px;
+	left:600px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+}	
+.titre {
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:200%;
+}
+
+.hg{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:300%;
+	
+	
+}
+
+.hf{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:200%
+	}
+.fi{
+	position:relative;
+	top:20px;
+	left:100px;
+	color:white;
+	text-shadow: black 0px 0px 10px;
+	font-size:140%
+	
+}
 	
 	footer {
   background-color: #333;
@@ -24,6 +73,7 @@ iframe {
 	
   position: fixed;	
 
+
   margin: 900px;
   margin-top: 175px;
   margin-bottom: 100px;
@@ -39,3 +89,4 @@ iframe {
 
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
 } 
+

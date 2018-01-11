@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php 
+include'connexion.php';
 $location=$_GET["location"];
 $article=$_GET["article"];
 ?>
@@ -36,12 +37,36 @@ $article=$_GET["article"];
 	foreach($lignes as $ligne){
 		$titre=$ligne["titre_article"];
 		$text=$ligne["text_article"];
-		
 		echo '<div class=hg> '.$titre.'</div>';
 		echo '<div class=hf> '.$text.'</div>';
 	}
-	
-	
 	?>
-	
+	<div class=titre>
+	<form action="enregistrementcommentaire.php" method="post">
+		Votre nom:<br>
+		<input style="color:black" type="text" name="nom"><br>
+		Votre Commentaire:<br>
+		<input style="color:black" type="text" name="commentaire">
+		<?php
+		echo '<input type="hidden" name="location" value="'.$location.'">';
+		echo '<input type="hidden" name="article" value="'.$article.'">';
+		echo '<input type="hidden" name="titre" value="'.$titre.'">';
+		?>
+		<input style="color:black" type="submit" value="Ajouter votre commentaire">
+	</form></div>
+	<?php
+	$com= 'SELECT DISTINCT nom,commentaire from commentaires where id_article="'.$titre.'" ';
+	$requete = $connexion->prepare($com);
+		$requete->execute();
+		$lignes = $requete->fetchAll();
+		
+	foreach($lignes as $ligne){
+		$nom=$ligne["nom"];
+		$commentaire=$ligne["commentaire"];
+		
+		echo '<div class=fi> '.$nom.'</div>';
+		echo '<div class=fi> '.$commentaire.'</div>';
+
+	}
+	?>
 	</body>
