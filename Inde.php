@@ -19,7 +19,10 @@
 	</head>
 	
 	<body>
-	
+	<a class=addbutton href="articleInde.php">
+		<img src="images/add.png" alt="Ajouter un article" width="100" height="100" border="0">
+
+		</a>
 
 	<div>
      <iframe width="475" height="425" frameborder="0" src="https://www.bing.com/maps/embed?h=425&w=475&cp=21.55604599011511~79.65194168561363&lvl=4&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
@@ -45,6 +48,8 @@
 		
 	<?php
 		include 'navbarinde.php';
+		$location = "Inde";
+-		include 'verifarticle.php';
 	?>
 	</body>	
 </html>
