@@ -2,27 +2,27 @@ body, main::before
 	{
 		background: url(images/france.jpg) 0/cover fixed;
 	}
-.row {
-	position:relative;
-	top:200px;
-	right:20px;
 	
+html, body{
+		height: 100%;
+	}	
+	
+	footer {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-
 .addbutton {
 	position:relative;
 	top:50px;
 	left:1400px;
 }
-
-#wow {
-	position:relative;
-	top:250px;
-	left:180px;
-	color:white;
-	text-shadow: white 0px 0px 10px;
-}
-
 #si {
 	position:relative;
 	top:380px;
@@ -67,3 +67,25 @@ body, main::before
 	font-size:140%
 	
 }
+
+iframe {
+	
+  position: fixed;	
+
+  margin: 900px;
+  margin-top: 175px;
+  margin-bottom: 100px;
+  
+  
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+}
+

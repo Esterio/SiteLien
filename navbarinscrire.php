@@ -2,10 +2,10 @@
 <nav class="navbar navbar-inverse ">
 		  <div class="container-fluid">
 			<div class="navbar-header">
+			<a class="navbar-brand" href="#">Voyages autour du monde</a>
 			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
 			</div>
 			<div class="collapse navbar-collapse" id="navcol-1">
-			<a class="navbar-brand" href="#">Voyages autour du monde</a>
 			<ul class="nav navbar-nav">
 				<li><a href="Accueil.php">Accueil</a></li>
 				<ul class="dropdown-menu">
@@ -21,8 +21,10 @@
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="Se_connecter.php">Se connecter</a></li>
-			  <li class="active"><a href="inscrire.php">S'inscrire</a></li>
+			  <li role="presentation"><a href="inscrire.php" class="text-primary"><i class="glyphicon glyphicon-pencil"></i> Inscription </a></li>
+			  <li role="presentation"><a href="Se_connecter.php" class="text-primary"><i class="glyphicon glyphicon-user"></i> Se connecter </a></li>
+			  
+			  
 			  
 			 </ul>
 		  </div>
