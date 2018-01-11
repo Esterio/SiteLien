@@ -12,7 +12,13 @@ body, main::before
 	top:50px;
 	left:1400px;
 }
-
+.row {
+	position:relative;
+	top:200px;
+	right:20px;
+ 	
+ 	
+}
 #wow {
 	position:relative;
 	top:250px;
@@ -39,7 +45,13 @@ body, main::before
 	
 	
 }
-
+#si {
+	position:relative;
+	top:380px;
+	left:600px;
+	color:white;
+	text-shadow: white 0px 0px 10px;
+}
 .hf{
 	position:relative;
 	top:20px;
