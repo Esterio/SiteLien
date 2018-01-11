@@ -4,7 +4,14 @@
 			<div class="row main">
 				<div class="panel-heading">
 	               <div class="panel-title text-center">
-	               		<h1 class="title">S'inscrire</h1>
+	               		<h1 class="title">Inscription</h1>
+						
+						
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel= "icon" type="image/x-icon" href= "favicon.ico"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		
+		
 	               		<hr />
 	               	</div>
 	            </div> 
@@ -38,7 +45,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i><i class="glyphicon glyphicon-gift"></i></span>
-									<input type="text" class="form-control" name="date_naiss" id="date_naiss"  placeholder="jj/mm/aaaa"/>
+									<input type=date class="form-control" name="date_naiss" id="date_naiss"  placeholder="JJ/mm/aaaa"/>
 								</div>
 							</div>
 						</div>
@@ -101,6 +108,9 @@
 						
 						<div class="form-group ">
 							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">S'inscrire</button>
+							
+							
+								
 						</div>
 						    </div>
 						

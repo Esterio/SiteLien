@@ -1,11 +1,13 @@
 body, main::before
 	{
-		background-image: url(images/se_connecter.jpg);
-		background-size: cover;
+		background-image:url(images/se_connecter.jpg);
+		background-repeat: no-repeat;
+		background-size:cover;
+		
 	}
 
 h3.title {
-	margin: 0 0 15px;
+	margin: 15px;
 	font-size: 60px;
     font-weight: bold;
 	color:#D86F0D;
@@ -28,5 +30,6 @@ hr{
 	font-weight:700;	
 	margin-top: 7px;
 }	
+
 
 	

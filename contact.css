@@ -1,0 +1,4 @@
+body, main:before 
+	{
+		background: url(images/contact.jpg) 0/cover fixed;
+	}
